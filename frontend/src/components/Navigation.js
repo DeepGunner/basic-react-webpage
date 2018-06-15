@@ -4,7 +4,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <div className="nav">
-        <img href="#" className="nav-logo-left"/>
+        <img href="#" src={require('../assets/nine.png')} className="nav-logo-left"/>
         <ul className="nav-right">
           <li className="active">
             <p>Home</p>
@@ -30,7 +30,6 @@ class Navigation extends React.Component {
             </p>
           </li>
         </ul>
-        {}
       </div>
     );
   }

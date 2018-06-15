@@ -7,7 +7,7 @@ class Content extends React.Component {
         <div className="side-menu">
           <div className="submenu">
             <ul>
-              <h2>Sub Menu</h2>
+              <h2>SubMenu</h2>
               <li>
                 {" "}
                 <a href="#">Home</a>
@@ -25,8 +25,8 @@ class Content extends React.Component {
             </ul>
           </div>
           <div className="info">
-            <img className="info-background"  />
-            <img className="my-picture"  />
+            <img src={require('../assets/seven.jpg')} className="info-background"  />
+            <img src={require('../assets/eight.jpg')} className="my-picture"  />
             <div className="info-strings">
               <p>
                 <b>Name</b>: John Doe{" "}
@@ -53,13 +53,12 @@ class Content extends React.Component {
             {}
             <div className="map-responsive">
               <h3>My Work Place</h3>
+              <br/><br/><br/><br/>
               <iframe
                 src="https://maps.google.com/maps?width=250&amp;height=150&amp;hl=en&amp;q=Hyderabad%2C%20India+(Workplace)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-                width={250}
-                height={120}
-                frameBorder={0}
                 style={{
-                  border: 0
+                  border: 0,
+                  frameBorder: 0
                 }}
                 allowFullScreen
               />
@@ -85,15 +84,15 @@ class Content extends React.Component {
             <div className="introduction-para2">
               <div id="quote">
                 <p id="saying">
-                  {" "}
+                  
                   <b>
                     <i>
-                      {" "}
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Pellentesque habitant morbi tristique senectus.
+                      
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique. 
                     </i>
-                  </b>{" "}
+                  </b>
                 </p>
-                <p id="author">Richard McClintock</p>
+                <p id="author">- Richard McClintock</p>
               </div>
               <p id="normal-info">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Nullam ac tortor vitae purus. Sit amet massa vitae tortor condimentum lacinia quis.
@@ -101,56 +100,55 @@ class Content extends React.Component {
             </div>
           </div>
         </div>
-        {}
+        
         <div className="more_articles">
           <div className="headline">
             <h3> More in the Series </h3>
           </div>
           <div className="article_rect">
-            <img  />
+          <img src={require('../assets/six.jpg')} alt="logo"/>
             <h2>Quis Lorem</h2>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Nullam ac tortor vitae purus. Sit amet massa vitae tortor condimentum lacinia quis.
             </p>
           </div>
           <div className="article_rect">
-            <img  />
+          <img src={require('../assets/five.jpg')} alt="logo"/>
             <h2>Faucibus Nunc Facilisi</h2>
             <p>
-              {" "}
+              
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Nullam ac tortor vitae purus. Sit amet massa vitae tortor condimentum lacinia quis.
             </p>
           </div>
         </div>
-        {}
+        
         <div className="related_articles">
           <div className="headline">
             <h3>Related Articles</h3>
           </div>
           <div className="article_square">
-            <img />
+          <img src={require('../assets/one.jpg')} alt="logo"/>
             <h2>Suspendisse Malesuada Erat</h2>
             <p>Egestas augue. Cum sit sapien nonummy montes posuere cursus ut. Vulputate.</p>
           </div>
           <div className="article_square">
-            <img  />
+          <img src={require('../assets/two.jpg')} alt="logo"/>
             <h2>Vulputate Felis Dapibus Risus</h2>
             <p>Erat aenean suscipit litora netus torquent dictumst nam imperdiet. Natoque.</p>
           </div>
           <div className="article_square">
-            <img  />
+          <img src={require('../assets/three.jpg')} alt="logo"/>
             <h2>Eleifend Sapien</h2>
             <p>Sociis et accumsan sociis vulputate dui bibendum vitae nostra, habitasse.</p>
           </div>
           <div className="article_square">
-            <img  />
+          <img src={require('../assets/four.jpg')} alt="logo"/>
             <h2>Vivamus Donec</h2>
             <p>Urna tortor. Quis euismod urna, aenean diam tempor ac pretium.</p>
           </div>
           
         </div>
-        {}
-        <div className="footer" />
+       
       </div>
     );
   }

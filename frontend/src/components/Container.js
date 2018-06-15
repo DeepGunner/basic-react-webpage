@@ -11,7 +11,7 @@ class Container extends React.Component {
         <MobileNav />
           <div id="heading-container">
           <span id="text">
-          Morbi Consectetuer Placerat Nulla Mus
+            Morbi Consectetuer Placerat Nulla Mus
             Urna tortor.<br />
             Quis euismod urna, aenean diam tempor ac pretium.<br />
             for farming.
