@@ -11,8 +11,7 @@ class Footer extends React.Component {
                 <a href="#"><li>Lorem Ipsum</li></a>
                 <a href="#"><li>Lorem Ipsum</li></a>
                 <a href="#"><li>Lorem Ipsum</li></a>
-                
-            </ul>
+                </ul>
           </li>
           <li>Portfolio
             <ul>
@@ -20,8 +19,7 @@ class Footer extends React.Component {
                 <a href="#"><li>Lorem Ipsum</li></a>
                 <a href="#"><li>Lorem Ipsum</li></a>
                 <a href="#"><li>Lorem Ipsum</li></a>
-                
-            </ul>
+                </ul>
           </li>
           <li>Events
             <ul>    
@@ -29,7 +27,6 @@ class Footer extends React.Component {
                 <a href="#"><li>Lorem Ipsum</li></a>
                 <a href="#"><li>Lorem Ipsum</li></a>
                 <a href="#"><li>Lorem Ipsum</li></a>
-                
             </ul>
           </li>
         </ul>
