@@ -8,6 +8,9 @@ class MobileNav extends React.Component {
         <nav role="navigation">
           <div id="menuToggle">
             <input type="checkbox" />
+            <span />
+            <span />
+            <span />
             <ul id="menu">
                 <a href="#">
                     <li>Home</li>
