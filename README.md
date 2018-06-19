@@ -1,4 +1,4 @@
-# Kisan Network Front-End code problem.
+# React Webpage
 
 Deployed at: https://deepgunner.github.io/basic-react-webpage/
 
