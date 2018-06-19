@@ -1,10 +1,10 @@
 # Kisan Network Front-End code problem.
 
-Deployed at: https://deepgunner.github.io/kisanNetwork/
+Deployed at: https://deepgunner.github.io/basic-react-webpage/
 
 ## Installation:
 
-`git clone https://github.com/DeepGunner/kisanNetwork`
+`git clone https://github.com/DeepGunner/basic-react-webpage`
 
 `cd frontend`
 
